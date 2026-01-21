@@ -34,6 +34,9 @@ app.post("/update-contact", (req, res) => {
 app.get("/delete-contact", (req, res) => {
 
 });
+app.get("/delete-user", (req, res) => {
+
+});
 
 
 app.listen(3000, () => {
